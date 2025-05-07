@@ -345,10 +345,7 @@ header.hero {
     grid-row: span 2;
   }
 
-  .enactus-grid img:nth-child(6) {
-   grid-column: span 1;
-    grid-row: span 1;
-  }
+
 
   @media (max-width: 600px) {
     .enactus-grid {
