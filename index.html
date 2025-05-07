@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neeladri Bandopadhyay's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+     <div class="logo">
+       <a href="index.html">
+         <img src="images/logo.png" alt="Neeladri Logo" />
+       </a>
+     </div>
+    <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#research">Research Paper</a></li>
+        <li><a href="#enactus">Enactus</a></li>
+        <li><a href="#certification">Certification</a></li>
+        <li><a href="#competition">Competition</a></li>
+        <li><a href="https://drive.google.com/file/d/1s6S_BZ3WDSMaNmh6ulOuPmcha4YDxLjr/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="resume-btn" target="_blank">Download Resume</a></li>
+    </ul>
+</nav>
+
+
+    <!-- Hero Section -->
+    <header class="hero">
+    <div class="hero-container">
+        <div class="hero-text">
+            <h1>Hi, I'm Neeladri Bandopadhyay</h1>
+            <p>I am a Computer Engineering student at KIIT, passionate solving complex challenges through my technical expertise</p>
+            <a href="#about" class="btn">Explore</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/profile_pic.jpg" alt="Neeladri Bandopadhyay">
+        </div>
+    </div>
+</header>
+
+<section id="about" class="about-section">
+    <h2>Who Am I?</h2>
+    <p class="intro-text">
+        I'm Neeladri Bandopadhyay, a Computer Engineering student at Kalinga Institute of Industrial Technology (KIIT). I am passionate about solving real-world problems through Machine Learning, Artificial Intelligence, and Systems Optimization. My expertise spans Data Structures, Algorithms, Cloud Computing, and Business Analytics, and I enjoy applying these skills in both technical projects and research-driven innovations.
+    </p>
+
+    <h3>My Journey so far</h3>
+    <div class="journey-container">
+        <div class="journey-card">
+            <img src="images/enactus.png" alt="Enactus logo">
+            <h4>Enactus</h4>
+            <p>Worked as Assistant Director of R&D and brought positive changes across the society.</p>
+            <a href="#enactus" class="journey-btn">Know more</a>
+        </div>
+        <div class="journey-card">
+            <img src="images/rp_pic.png" alt="Research paper image">
+            <h4>Research Paper</h4>
+            <p>Research has been key to my growth, shaping my problem-solving and technical expertise.</p>
+            <a href="#research" class="journey-btn">Know more</a>
+        </div>
+        <div class="journey-card">
+            <img src="images/trophy.png" alt="Competition trophy">
+            <h4>Competitions</h4>
+            <p>Solving challenges and showcasing innovations sharpened my skills under pressure.</p>
+            <a href="#competition" class="journey-btn">Know more</a>
+        </div>
+    </div>
+</section>
+
+
+ <!-- Projects Section -->
+<section id="projects" style="background-color: #eeeeee; padding: 50px 20px;">
+  <h2 class="section-title" style="text-align: center; font-size: 2.5em; margin-bottom: 40px;">Projects</h2>
+
+  <!-- Project 1 -->
+  <div class="project-container" style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 50px; align-items: center;">
+    <div class="project-text" style="flex: 1; min-width: 280px;">
+      <h3 style="margin-top: 0;">Optimal Cloud Resource Allocator</h3>
+      <p><strong>Overview:</strong> Implements a First-Fit Decreasing (FFD) approach with a max-heap to allocate resources effectively.</p>
+      <ul>
+        <li>Uses FFD Algorithm for optimal allocation</li>
+        <li>Utilizes Max-Heap to prioritize high-demand requests</li>
+        <li>Minimizes unallocated requests and enhances utilization</li>
+        <li>Reduces execution time significantly</li>
+      </ul>
+      <p><strong>Tech Stack:</strong> C, Max-Heap, Structs</p>
+    </div>
+    <div class="project-image" style="flex: 1; text-align: center;">
+      <img src="images/cloud_project.jpg" alt="Cloud Allocation" style="max-width: 100%; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="project-container reverse" style="display: flex; flex-wrap: wrap; gap: 20px; flex-direction: row-reverse; align-items: center;">
+    <div class="project-text" style="flex: 1; min-width: 280px;">
+      <h3 style="margin-top: 0;">Optimized Recommendation Systems</h3>
+      <p><strong>Overview:</strong> Uses Matrix Factorization and Bayesian models to improve recommendations with uncertainty quantification.</p>
+      <ul>
+        <li>Combines MF and Bayesian Probabilistic Models</li>
+        <li>Implements Bayesian Personalized Ranking (BPR)</li>
+        <li>Provides confidence estimates via uncertainty quantification</li>
+        <li>Tested on real-world benchmark datasets</li>
+      </ul>
+      <p><strong>Tech Stack:</strong> BPR, BPMF, Deep Learning, Variational Inference</p>
+    </div>
+    <div class="project-image" style="flex: 1; text-align: center;">
+      <img src="images/recommender_project.png" alt="Recommendation System" style="max-width: 100%; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);">
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Research Paper Section -->
+<section id="research" class="custom-section">
+    <h2 class="section-title">Research Paper</h2>
+    <div class="research-container">
+        <img src="images/IEEE_Logo.png" alt="IEEE Logo" class="ieee-logo">
+        <div class="research-details">
+            <p>
+                I co-authored a paper titled <strong>"Dynamic Fog Federation Scheme Using Vertex Cover Problem and Shapley Value-Based Approach"</strong>, published in 2025 International Conference on Computer, Electrical & Communication Engineering (ICCECE).
+            </p>
+            <a href="https://ieeexplore.ieee.org/document/10940810" target="_blank" rel="noopener noreferrer" class="preview-btn">View Paper</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Enactus Section -->
+<section id="enactus" style="padding: 60px 20px; background-color: #f7f9fa;">
+  <div style="max-width: 1200px; margin: auto;">
+
+    <h2 style="text-align: center; font-size: 2.4em; margin-bottom: 10px; color: #1a1a1a;">
+      Enactus Experience
+    </h2>
+
+    <p style="text-align: center; max-width: 850px; margin: 0 auto 40px; font-size: 1.1em; color: #444;">
+      <em>“Where innovation meets social impact.”</em><br>
+      As <strong>Assistant Director of Research and Development</strong> at Enactus, I helped drive sustainable, entrepreneurial solutions to real-world community challenges.
+    </p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 40px; justify-content: center;">
+      
+      <!-- Left column -->
+      <div style="flex: 1 1 500px; min-width: 300px;">
+        <ul style="list-style: none; padding-left: 0; color: #333; font-size: 1.05em;">
+          <li style="margin-bottom: 20px;">
+            <strong>Led</strong> a team of <strong>50+ members</strong> from challenging backgrounds, executing real-time impact projects.
+          </li>
+          <li style="margin-bottom: 20px;">
+            <strong>Streamlined</strong> recruitment, onboarding & training to maintain quality and engagement.
+          </li>
+          <li style="margin-bottom: 20px;">
+            Delivered presentations at <strong>national-level Enactus competitions</strong>, showcasing innovation and results.
+          </li>
+          <li style="margin-bottom: 20px;">
+            Acted as a communication bridge between <strong>investors, beneficiaries, and administration</strong>.
+          </li>
+        </ul>
+      </div>
+
+      <!-- Right column -->
+      <div style="flex: 1 1 400px; min-width: 280px; text-align: center;">
+        <img src="images/enactus.png" 
+             alt="Enactus Logo" 
+             style="max-width: 40%; height: auto; border-radius: 10px;">
+      </div>
+    </div>
+
+    <!-- Image Grid -->
+    <div class="enactus-grid">
+      <!-- Replace src with your images -->
+      <img src="images/enactus1.jpg" alt="Enactus photo 1">
+      <img src="images/enactus3.jpg" alt="Enactus photo 3">
+      <img src="images/enactus4.jpg" alt="Enactus photo 4">
+      <img src="images/enactus5.jpg" alt="Enactus photo 5">
+      <img src="images/enactus6.jpg" alt="Enactus photo 6">
+      <img src="images/enactus7.jpg" alt="Enactus photo 7">
+      <img src="images/enactus9.jpg" alt="Enactus photo 9">
+      <img src="images/enactus10.jpg" alt="Enactus photo 10">
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Certifications Section -->
+<section id="certification" class="custom-section">
+    <h2>Licenses & Certifications</h2>
+
+    <div class="certification-grid">
+
+        <!-- Certificate 1 -->
+        <div class="cert-card">
+            <img src="images/pic1.jpg" alt="London Business School Logo" class="cert-logo">
+            <div>
+                <h3>Business for Good: Fundamentals of Corporate Responsibility</h3>
+                <p><strong>London Business School</strong> – Jan 2025</p>
+                <a href="https://www.coursera.org/account/accomplishments/verify/PRN2MU86JN7X" class="cert-btn" target="_blank">Show Credential</a>
+            </div>
+        </div>
+
+        <!-- Certificate 2 -->
+        <div class="cert-card">
+            <img src="images/pic2.jpg" alt="CU Boulder Logo" class="cert-logo">
+            <div>
+                <h3>Ethical Decision Making for Success in the Tech Industry</h3>
+                <p><strong>University of Colorado Boulder</strong> – Jan 2025 (Valid till Dec 2035)</p>
+                <a href="https://www.coursera.org/account/accomplishments/verify/YC1O46F1XPRA" class="cert-btn" target="_blank">Show Credential</a>
+            </div>
+        </div>
+
+        <!-- Certificate 3 -->
+        <div class="cert-card">
+            <img src="images/pic3.png" alt="Coursera Logo" class="cert-logo">
+            <div>
+                <h3>Corporate Governance</h3>
+                <p><strong>Coursera Instructor Network</strong> – Dec 2024</p>
+                <a href="https://www.coursera.org/account/accomplishments/verify/P7X35D2EMCI0" class="cert-btn" target="_blank">Show Credential</a>
+            </div>
+        </div>
+
+        <!-- Certificate 4 -->
+        <div class="cert-card">
+            <img src="images/pic4.png" class="cert-logo">
+            <div>
+                <h3>PwC US - Management Consulting Job Simulation</h3>
+                <p><strong>Forage</strong> – Oct 2024</p>
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/PwC%20US/douE8ih9jWMQ2P7sS_CA4pBqsy4b4PdyaBP_aEcaioZ63sL4PcPym_1729874729932_completion_certificate.pdf" class="cert-btn" target="_blank">Show Credential</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="domains-enhanced">
+    <h4>Domains Covered:</h4>
+    <div class="domain-tags">
+        <div class="domain-card">
+            <span>Programming</span>
+            <p>(e.g., Python, C++)</p>
+        </div>
+        <div class="domain-card">
+            <span>Data Science & ML</span>
+            <p>Machine Learning, Data Analysis</p>
+        </div>
+        <div class="domain-card">
+            <span>Cloud & Cybersecurity</span>
+            <p>AWS, Azure, Cyber Risk</p>
+        </div>
+        <div class="domain-card">
+            <span>Corporate Responsibility</span>
+            <p>Ethics, Governance, Compliance</p>
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+
+
+<section id="competition" class="competitions-section">
+  <h2 class="section-title">Competitions</h2>
+
+  <p class="overview">
+    Actively participated in national and inter-college technical and entrepreneurial competitions,
+    demonstrating innovation, critical thinking, and collaboration.
+  </p>
+
+  <div class="competition-cards">
+    <div class="competition-card">
+      <h3>Enactus National Cup 2024</h3>
+      <p class="project-name"><em>Project Vistar</em> | <span class="date">July 2024</span></p>
+      <p>
+        Led the R&D team and conducted in-depth research for the project.
+	<br>Proposed an optimized solution for better efficiency and sustainability.
+      </p>
+    </div>
+
+    <div class="competition-card">
+      <h3>Bio-ino-thon</h3>
+      <p class="project-name"><em>Project Sanraksha</em> | <span class="date">Feb 2024</span></p>
+      <ul>
+        Contributed to the consumer study and user analysis of the project.
+      </ul>
+    </div>
+  </div>
+
+  <div class="skills-demonstrated">
+    <h4>Skills Demonstrated:</h4>
+    <div class="skill-badges">
+      <span>Problem Solving</span>
+      <span>Innovation</span>
+      <span>Technical Acumen</span>
+      <span>Team Collaboration</span>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Grid Layout for 6 Images -->
+  <div class="competition-grid">
+    <img src="images/comp1.jpg" alt="Competition 1">
+    <img src="images/comp6.jpg" alt="Competition 4">
+    <img src="images/comp5.jpg" alt="Competition 3">
+    <img src="images/comp57.jpg" alt="Competition 7">
+    <img src="images/present.jpg" alt="Competition 6">
+    <img src="images/trophy 1.jpeg" alt="Competition 5">
+    <img src="images/comp2.jpg" alt="Competition 2">
+  </div>
+</section>
+
+
+
+<!-- Footer -->
+<footer style="background-color: #e0e0e0; color: black; padding: 30px 20px; text-align: center;">
+    <div style="max-width: 1200px; margin: auto;">
+        <p style="font-size: 1.1em; margin-bottom: 10px;">
+            &copy; 2025 Neeladri Bandopadhyay. All rights reserved.
+        </p>
+        <p style="margin-bottom: 20px;">
+	
+            Connect with me: 
+	    <i class="fas fa-envelope"></i>
+            <a href="mailto:contact.neeladri@gmail.com" style="color: black;">Email</a>
+            |
+	    <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/neeladri-bandopadhyay-92bb8824b/" target="_blank" style="color: black;">LinkedIn</a>
+            |
+	    <i class="fab fa-github"></i>
+            <a href="https://github.com/Neel77Mahi" target="_blank" style="color: black;">GitHub</a>
+        </p>
+        <p style="font-size: 0.9em; color: black;">
+            Built with ❤️ using HTML, CSS, and a passion for problem-solving.
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>  
